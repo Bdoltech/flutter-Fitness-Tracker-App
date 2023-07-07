@@ -1,0 +1,14 @@
+class StepsScreen extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Steps Tracker'),
+      ),
+      body: Center(
+        child: Text('Steps Tracker'),
+      ),
+    );
+  }
+}
+
